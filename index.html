@@ -1,0 +1,87 @@
+<!doctype html>
+   
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Shirt Designer</title>
+	<link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
+	<link rel="stylesheet" href="stylesheets/jquery-ui.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="javascripts/brushes.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/category.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body id="editor">
+    <div class="mainWrap">
+        
+        <!--div class="menuItems">
+        <ul>
+            <li>Register</li>
+            <li>Log in</li>
+            <li>Wishlist(0)</li>
+            <li>Shiping cart(0)</li>
+            </ul>
+        
+        </div-->
+	<div class="container">
+        <h3>Design Lab: Beta Version v3.4.0</h3>
+		<div id="shirt">
+			<div></div>
+		</div>
+	</div>
+	<nav>
+		<form>
+			<div id="inspector">
+                <h3><a href="#">Products Category</a></h3>
+				<div>
+					<p>Select the product you'll like to customized. Find your muse from our list</p>
+					<div id="category"></div>
+				</div>
+				<h3><a href="#">Choose shirt designs</a></h3>
+				<div>
+					<p>Shirt colors</p>
+					<input type="hidden" name="shirt[color]" value="white" id="shirt_color" />
+					<div class="colors" input="shirt_color" id="select_shirt_color">
+                        <div val="white" class="item"><div style="background: #FFF"></div></div>
+						<div val="black" class="item"><div style="background: #000"></div></div>
+						<div val="red" class="item"><div style="background: red"></div></div>
+						<div val="green" class="item"><div style="background: green"></div></div>
+                        <div val="ash" class="item"><div style="background: #0ff"></div></div>
+						<div val="blue" class="item selected"><div style="background: #4245f4"></div></div>
+                        <div val="black1" class="item"><div style="background: #041"></div></div>
+                        <div val="black2" class="item"><div style="background: #452"></div></div>
+                        <div val="black3" class="item"><div style="background: #50f3"></div></div>
+                        <div val="black4" class="item"><div style="background: #6d4"></div></div>
+                        <div val="black5" class="item"><div style="background: #325"></div></div>
+                        <div val="black6" class="item"><div style="background: #246"></div></div>
+                        
+					</div>
+				</div>
+				<h3><a href="#">Whitelab Bitmoji</a></h3>
+				<div>
+					<p>Select your customized emoji from our whitelab Premade Emojis</p>
+					<div id="brushes"></div>
+				</div>
+				<h3><a href="#">Terms & agreement</a></h3>
+				<div>
+                    
+                 
+					<p>
+					Please read these Terms of Service carefully before accessing or using our website.
+                    By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.
+                        <a href="#">Continue Reading</a>
+					</p>
+                    
+                        
+                    
+				
+				</div>
+			</div>
+		</form>
+	</nav>
+    </div>
+</body>
+    
+</html>
